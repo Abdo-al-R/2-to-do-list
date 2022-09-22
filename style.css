@@ -1,0 +1,139 @@
+* {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0072b4;
+  background-image: linear-gradient(90deg, #00578a 0%, #000000 100%);
+
+  color: white;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 3.5rem;
+  display: block;
+  margin: 25px;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  font-weight: 600;
+}
+.task {
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 10px;
+
+  background: rgba(0, 140, 255, 0.3);
+
+  box-shadow: 0 8px 32px 0 rgba(0, 119, 255, 0.3);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 1px solid rgba(255, 255, 255);
+}
+
+.small-container {
+  display: flex;
+}
+.icon {
+  padding: 7px;
+  font-size: 24px;
+  transition: 0.2s ease;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.icon-star-full {
+  color: rgb(255, 255, 255);
+  opacity: 0.3;
+  padding-left: 3px;
+}
+.icon-star-full:hover {
+  color: yellow;
+  opacity: 1;
+  transform: scale(1.1);
+}
+.icon-angry2 {
+  color: gold;
+  padding-right: 5px;
+}
+.icon-heart{
+  color: rgb(255, 0, 149);
+  padding-right: 5px;
+
+}
+.icon-cross {
+  color: rgb(255, 72, 0);
+}
+.icon-cross:hover {
+  color: rgb(255, 0, 0);
+}
+
+h2 {
+  width: 22%;
+  text-align: center;
+  font-size: 40px;
+  margin: 50px auto;
+  margin-bottom: 40px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+input {
+  border-radius: 10px;
+  border: 5px solid white;
+  color: white;
+  font-size: 22px;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px 20px;
+  width: 30vw;
+  text-align: center;
+}
+button {
+  all: unset;
+}
+
+.icon-arrow-up {
+  font-size: 35px;
+  margin-left: 25px;
+}
+.icon-arrow-up:hover {
+  transition: 0.2s ease;
+  transform: scale(1.2);
+  color: #00db25;
+}
+
+.line{
+  text-decoration: line-through;
+  color: #00db25;
+
+}
+
+.yellow{
+color: yellow;
+opacity: 1;
+}
+.black{
+  color: rgb(255, 255, 255);
+  
+}
